@@ -1,5 +1,12 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
+<script>
+export default {
+  name: "vidHolder",
+  computed: {
+    videoElement() {
+      return this.$refs.video;
+    }
+  }
+}
 
 </script>
 
@@ -9,14 +16,21 @@ import { RouterLink, RouterView } from 'vue-router'
 
     <h2 class="top">Welcome to the AI Playground</h2>
     <div class="vid-holder container">
-      <video autoplay muted loop class="vidd">
-        <source src="LakeSmall.mp4" type="video/mp4">
+      <video autoplay muted loop class="vidd" ref="video">
+        <source src="@/assets/LakeSmall.mp4" type="video/mp4">
       </video>
     </div>
 
-    <RouterView />
-
+    <p class="ai">
+      <a class="ai-link" 
+        href="https://pinchercreekgm.netlify.app/"
+        target="_blank">
+      Pincher Creek Greasemonkey Site
+      </a>
+    </p>
   </section>
+
+  
 </template>
 
 <style scoped>
@@ -57,4 +71,14 @@ import { RouterLink, RouterView } from 'vue-router'
   max-height: 600px;
   object-fit: fill;
 }
-</style>
+
+.ai {
+  position: absolute;
+  top: 16%;
+  color: white;
+  font-weight: bold;
+}
+.ai-link {
+  color: yellow; 
+  text-decoration: none;
+}</style>

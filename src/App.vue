@@ -38,7 +38,7 @@ export default {
   position: relative;
   width: 100%;
   height: 100vh;
-  max-height: 820px;
+  max-height: 880px;
   
   display: grid;
   place-items: center;
@@ -67,8 +67,8 @@ export default {
 .vidd {
   width: 100%; 
   height: 100%; 
-  max-width: 960px;
-  max-height: 600px;
+  max-width: 1200px;
+  max-height: 840px;
   object-fit: fill;
 }
 

@@ -10,7 +10,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <h2 class="top">Welcome to the AI Playground</h2>
     <div class="vid-holder container">
       <video autoplay muted loop class="vidd">
-        <source src="src/assets/LakeSmall.mp4" type="video/mp4">
+        <source src="LakeSmall.mp4" type="video/mp4">
       </video>
     </div>
 

@@ -8,7 +8,7 @@
     <a class="ai-link" 
       href="https://pinchercreekgm.netlify.app/"
       target="_blank">
-    Pincher Creek Clinic Grease Monkey Site
+    Pincher Creek Greasemonkey Site
     </a>
   </p>
 
@@ -24,5 +24,6 @@
 }
 .ai-link {
   color: yellow; 
+  text-decoration: none;
 }
 </style>

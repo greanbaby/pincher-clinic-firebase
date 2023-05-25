@@ -7,7 +7,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <section class="container">
 
 
-    <h1 class="top">Welcome to the AI Playground</h1>
+    <h2 class="top">Welcome to the AI Playground</h2>
     <div class="vid-holder container">
       <video autoplay muted loop class="vidd">
         <source src="src/assets/LakeSmall.mp4" type="video/mp4">
@@ -38,8 +38,8 @@ import { RouterLink, RouterView } from 'vue-router'
   padding: 0.25rem;
   text-align: center;
   color: white;
-  font-size: 2rem;
-  font-weight: 900;
+  font-size: 1.25rem;
+  font-weight: 700;
   text-shadow: 0 0 10px black;
   background-color: rgba(0,0,0,0.5);
 }

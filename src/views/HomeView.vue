@@ -4,7 +4,7 @@
 
 <template>
 
-  <p class="ai">You might be interested in: 
+  <p class="ai">
     <a class="ai-link" 
       href="https://pinchercreekgm.netlify.app/"
       target="_blank">
